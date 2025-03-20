@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioGroup android:id="@id/lockRadioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <RadioButton android:textSize="18.0sp" android:id="@id/lockRadioButton1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="None" />
+        <RadioButton android:textSize="18.0sp" android:id="@id/lockRadioButton2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Code" />
+        <RadioButton android:textSize="18.0sp" android:id="@id/lockRadioButton3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Electro" />
+    </RadioGroup>
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/lockCodeNumber" android:background="@drawable/btn_border_primary" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Введите код" android:maxLength="8" android:inputType="number" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/lockRadioGroup" app:layout_constraintStart_toEndOf="@id/lockRadioGroup" app:layout_constraintTop_toTopOf="@id/lockRadioGroup" />
+</androidx.constraintlayout.widget.ConstraintLayout>

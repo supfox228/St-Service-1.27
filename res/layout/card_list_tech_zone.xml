@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/background_primary" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/card_list_tech_zone_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="ZONE TEST" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_tech_zone_all_vehicle" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/card_list_tech_zone_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0000" android:paddingStart="15.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/card_list_tech_zone_disable_reasons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

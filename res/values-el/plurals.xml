@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_main_plurals_tech_zone">
+        <item quantity="other">"%1$d zones · "</item>
+        <item quantity="zero">Not selected</item>
+        <item quantity="one">"%1$d zone · "</item>
+        <item quantity="two">"%1$d zones · "</item>
+        <item quantity="few">"%1$d zones · "</item>
+        <item quantity="many">"%1$d zones · "</item>
+    </plurals>
+    <plurals name="logistics_parking">
+        <item quantity="other">%1$d parking</item>
+        <item quantity="zero">Not selected</item>
+        <item quantity="one">%1$d parking</item>
+        <item quantity="two">%1$d parking</item>
+        <item quantity="few">%1$d parking</item>
+        <item quantity="many">%1$d parking</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="tasks_count">
+        <item quantity="other">%d tasks</item>
+        <item quantity="one">%d task</item>
+    </plurals>
+</resources>

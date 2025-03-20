@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/chooseRvItemConstraint" android:background="@drawable/multi_list_action_item_background" android:padding="@dimen/dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/sp_18" android:textColor="@color/monochromeBlack" android:ellipsize="end" android:id="@id/nameChooseRvItem" android:layout_width="0.0dip" android:layout_height="wrap_content" android:fontFamily="@font/roboto_regular" android:layout_marginEnd="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/isCheckedChooseRvItem" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/isCheckedChooseRvItem" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/nameChooseRvItem" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/nameChooseRvItem" app:srcCompat="@drawable/ic_check_14x11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

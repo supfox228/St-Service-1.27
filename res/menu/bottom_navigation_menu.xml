@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home_icon_no_selected" android:id="@id/home" android:title="@string/home" />
+    <item android:icon="@drawable/ic_scan_qr" android:id="@id/search" android:title="@string/scanner" />
+    <item android:icon="@drawable/ic_task" android:id="@id/task" android:title="@string/menu_map_tasks" />
+    <item android:icon="@drawable/ic_map_no_selected" android:id="@id/map" android:title="@string/map" />
+</menu>

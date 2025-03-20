@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/card_parking_main_ll" android:background="@drawable/background_primary" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="21.0sp" android:textColor="@color/white" android:id="@id/card_parking_identity" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="21.0sp" android:textColor="@color/white" android:id="@id/card_parking_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/card_parking_text_bike" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/bike" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/card_parking_count_bike" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/card_parking_text_scooter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/scooter" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/card_parking_count_scooter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

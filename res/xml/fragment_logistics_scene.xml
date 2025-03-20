@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/logisticsTasksHeader" />
+        <Constraint android:orientation="horizontal" android:id="@id/logisticsTabLayout" android:background="@drawable/logistics_tab_layout_bg" android:padding="@dimen/dp_4" android:visibility="visible" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:weightSum="3.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/logisticsTasksHeader" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/logisticsTasksHeader" />
+        <Constraint android:orientation="horizontal" android:id="@id/logisticsTabLayout" android:background="@drawable/logistics_tab_layout_bg" android:padding="@dimen/dp_4" android:visibility="gone" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:weightSum="3.0" app:layout_constraintBottom_toBottomOf="@id/logisticsTasksHeader" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+    <Transition app:constraintSetEnd="@id/end" app:constraintSetStart="@id/start">
+        <OnSwipe app:touchAnchorId="@id/frameLogistics" />
+    </Transition>
+</MotionScene>

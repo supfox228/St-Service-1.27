@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/background_white" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@drawable/btn_border_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/add_and_complete_task_card_text_view" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_weight="1.0" />
+        <androidx.appcompat.widget.AppCompatButton android:textColor="@color/white" android:layout_gravity="center" android:id="@id/add_and_complete_task_card_btn_damage" android:background="@drawable/background_primary" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/task_add_btn_work" android:layout_weight="1.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@drawable/btn_border_primary" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatEditText android:textSize="15.0sp" android:id="@id/add_and_complete_task_card_mileage" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:hint="@string/task_add_edittext_mileage" android:layout_weight="1.0" android:inputType="numberSigned" android:imeOptions="actionDone" />
+        <androidx.appcompat.widget.AppCompatButton android:textColor="@color/white" android:layout_gravity="center" android:id="@id/add_and_complete_task_card_btn_photo" android:background="@drawable/background_primary" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/card_photo_repair" android:layout_weight="1.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

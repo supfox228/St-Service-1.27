@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/layout_change_code" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceLarge" android:textSize="17.0sp" android:id="@id/dialog_2_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatEditText android:textSize="15.0sp" android:id="@id/dialog_2_edit_text_bonus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" android:imeOptions="actionDone">
+        <requestFocus />
+    </androidx.appcompat.widget.AppCompatEditText>
+    <androidx.appcompat.widget.AppCompatEditText android:textSize="15.0sp" android:id="@id/dialog_2_edit_text_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" android:imeOptions="actionDone">
+        <requestFocus />
+    </androidx.appcompat.widget.AppCompatEditText>
+</androidx.appcompat.widget.LinearLayoutCompat>

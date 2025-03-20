@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/dialogEnotherRow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatCheckBox android:textSize="18.0sp" android:id="@id/anotherReasonCheckBox" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Reason" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toStartOf="@id/anotherNumButton" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/anotherNumButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/anotherReasonCheckBox" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/anotherReasonCheckBox" />
+</androidx.constraintlayout.widget.ConstraintLayout>

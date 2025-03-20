@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@id/action_scan_search" android:orderInCategory="1" android:title="@string/menu_map_search" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_close_test" android:id="@id/action_close" android:orderInCategory="2" android:title="@string/dialog_button_close" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_scan_qr" android:id="@id/action_add" android:visible="false" android:orderInCategory="0" android:title="@string/to_add" app:showAsAction="always" />
+</menu>

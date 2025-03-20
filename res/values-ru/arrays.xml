@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="parking_list_type">
+        <item>По избытку</item>
+        <item>По недостачи</item>
+        <item>По дистанции</item>
+    </string-array>
+    <string-array name="task_list_type">
+        <item>Все</item>
+        <item>Завершенные</item>
+        <item>Незавершенные</item>
+    </string-array>
+</resources>

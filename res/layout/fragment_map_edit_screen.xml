@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/map_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/map_edit_reset" android:background="@drawable/ic_refresh" android:visibility="visible" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_margin="20.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:weightSum="2.0">
+        <androidx.appcompat.widget.AppCompatButton android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/map_edit_close" android:background="@drawable/background_primary" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:text="@string/dialog_button_close" android:layout_weight="1.0" android:textAllCaps="true" android:layout_marginEnd="20.0dip" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/map_edit_apply" android:background="@drawable/background_primary" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:text="@string/dialog_button_apply" android:layout_weight="1.0" android:textAllCaps="true" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

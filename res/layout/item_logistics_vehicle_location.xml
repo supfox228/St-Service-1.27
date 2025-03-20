@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/logisticsItem" android:background="@drawable/card_top_and_bottom_curved_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lContent" android:paddingTop="@dimen/dp_16" android:paddingBottom="@dimen/dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_16" android:paddingEnd="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/ivScooter" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_purple_small_scooter" />
+        <TextView android:textSize="@dimen/sp_20" android:textStyle="bold" android:textColor="@color/monochromeBlack" android:id="@id/tvVehiclesCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/tt_commons_medium" android:layout_marginStart="@dimen/dp_18" app:layout_constraintStart_toEndOf="@id/ivScooter" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/lInfo" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tvVehiclesCount" app:layout_constraintTop_toBottomOf="@id/tvVehiclesCount">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/monochromeGrey50" android:id="@id/tvFilter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/roboto_regular" />
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/monochromeBlack" android:id="@id/tvAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@font/roboto_regular" />
+        </LinearLayout>
+        <ImageView android:id="@id/ivType" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/lInfo" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/lInfo" app:srcCompat="@drawable/ic_purple_send_message" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/lIsChosen" android:layout_width="@dimen/dp_0" android:layout_height="56.0dip" android:layout_marginTop="@dimen/dp_20" android:weightSum="1.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lInfo">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/unload" android:background="@drawable/purple_10_shape" android:padding="@dimen/dp_16" android:layout_width="wrap_content" android:layout_height="@dimen/dp_56" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/sp_18" android:textColor="@color/purpleNight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" android:fontFamily="@font/roboto_medium" android:layout_marginStart="@dimen/dp_7" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/share" android:background="@drawable/purple_10_shape" android:padding="@dimen/dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginStart="@dimen/dp_12">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_purple_send_message" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/card_active_order" android:background="@drawable/background_red" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:layout_gravity="end" android:id="@id/active_order_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/task_card_date" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/active_order_vehicle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/task_card_name" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/active_order_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/active_order_status" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/active_order_withdrawn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/active_order_withdrawn" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/active_order_bonuses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/active_order_debts" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/active_order_client" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/active_order_client_number" android:textIsSelectable="true" />
+</androidx.appcompat.widget.LinearLayoutCompat>

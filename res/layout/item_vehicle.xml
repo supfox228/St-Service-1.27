@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout android:gravity="center_vertical" android:id="@id/swipeRevealLayout" android:background="@drawable/light_grey_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_8" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_16" app:dragEdge="right" app:mode="same_level"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/removeScooterImage" android:background="@color/secondaryRed7" android:padding="@dimen/dp_30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dp_1" app:srcCompat="@drawable/ic_recycle_bin" />
+        <ImageView android:id="@id/soundScooterImage" android:background="@color/purple10" android:padding="@dimen/dp_30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dp_1" app:srcCompat="@drawable/ic_sound" />
+        <ImageView android:id="@id/openScooterImage" android:background="@color/lightGreen" android:padding="@dimen/dp_30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dp_1" app:srcCompat="@drawable/ic_power" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/scannerTCViewGroup" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/scooterIconImg" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="@dimen/dp_18" android:layout_marginBottom="@dimen/dp_18" android:layout_marginStart="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linear" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="@id/scooterIconImg" app:layout_constraintEnd_toStartOf="@id/greyArrowImg" app:layout_constraintStart_toEndOf="@id/scooterIconImg" app:layout_constraintTop_toTopOf="@id/scooterIconImg">
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/monochromeBlack" android:id="@id/tcCodeTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/roboto_medium" />
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/monochromeGrey50" android:id="@id/tcStatusTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all" android:fontFamily="@font/roboto_regular" />
+        </LinearLayout>
+        <ImageView android:id="@id/greyArrowImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_grey_arrow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

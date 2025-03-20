@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/shadow" android:background="@drawable/shape_gradient_top_shadow" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginBottom="-10.0dip" app:layout_anchor="@id/content" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" app:behavior_peekHeight="460.0dip" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
+    <androidx.compose.ui.platform.ComposeView android:layout_gravity="top" android:id="@id/topBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.compose.ui.platform.ComposeView android:layout_gravity="bottom" android:id="@id/bottomBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

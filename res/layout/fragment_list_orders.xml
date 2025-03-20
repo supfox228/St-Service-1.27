@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/listOrdersCount" android:layout_width="@dimen/dp_0" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/task_list_count" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="spread" />
+    <ScrollView android:background="@drawable/btn_border_primary" android:layout_width="fill_parent" android:layout_height="@dimen/dp_0" android:layout_margin="5.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_default="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/listOrdersCount">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/listOrdersRecyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/listOrdersDebt" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ProgressBar android:id="@id/listOrdersProgressBar" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/listOrdersRefresh" android:background="@drawable/ic_refresh" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

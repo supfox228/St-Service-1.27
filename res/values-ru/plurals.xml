@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="filter_main_plurals_tech_zone">
+        <item quantity="other">"%1$d зон · "</item>
+        <item quantity="zero">Не выбраны</item>
+        <item quantity="one">"%1$d зона · "</item>
+        <item quantity="two">"%1$d зоны · "</item>
+        <item quantity="few">"%1$d зоны · "</item>
+        <item quantity="many">"%1$d зон · "</item>
+    </plurals>
+    <plurals name="logistics_parking">
+        <item quantity="other">%1$d парковок</item>
+        <item quantity="zero">Не выбраны</item>
+        <item quantity="one">%1$d парковка</item>
+        <item quantity="two">%1$d парковки</item>
+        <item quantity="few">%1$d парковки</item>
+        <item quantity="many">%1$d парковок</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="tasks_count">
+        <item quantity="other">%d задач</item>
+        <item quantity="one">%d задача</item>
+        <item quantity="few">%d задачи</item>
+        <item quantity="many">%d задач</item>
+    </plurals>
+</resources>
